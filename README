@@ -1,0 +1,4 @@
+to run a file abc.asm:
+    $ nasm -f elf abc.asm
+    $ ld -s -o xyz abc.o
+    $ ./xyz
